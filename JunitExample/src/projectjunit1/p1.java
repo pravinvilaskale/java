@@ -5,11 +5,6 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class p1 {
 
-	@BeforeEach
-	public void add()
-	{
-		System.out.println(2+3);
-	}
 	@Test
 	public void multiplication()
 	{
@@ -20,6 +15,15 @@ public class p1 {
 	{
 		System.out.println("Heyyy.");
 	}
+	@Test
+	public void add()
+	{
+		System.out.println(1+1);
+	}
+	@Test
+	public void last()
+	{
+		System.out.println("Last methods.");
+	}
 	
-
 }
