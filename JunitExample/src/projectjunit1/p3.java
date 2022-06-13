@@ -2,6 +2,7 @@ package projectjunit1;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assume.assumeThat;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.RepeatedTest;
@@ -28,7 +29,7 @@ public class p3 {
 	{
 		System.out.println("from display3");
 		int a=10,b=12;
-		assertNotEquals(a,b);
+		//assumeThat(assertNotEquals(a,b));
 	}
 
 }
