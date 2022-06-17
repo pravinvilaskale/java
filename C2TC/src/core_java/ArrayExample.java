@@ -11,7 +11,7 @@ public class ArrayExample {
 		//Declare array with values.
 		int[] arr = {1,5,3,5,7,3,5,7,7,3};
 		
-		System.out.println(array[1]);
+		System.out.println(arr[1]);
 	}
 
 }

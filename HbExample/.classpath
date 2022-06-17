@@ -24,5 +24,6 @@
 	<classpathentry kind="lib" path="C:/Users/spartan/Downloads/0 Hibernate JAR Files/Hibernate/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="lib" path="C:/Users/spartan/Downloads/0 Hibernate JAR Files/Hibernate/protobuf-java-3.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/spartan/Downloads/0 Hibernate JAR Files/Hibernate/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spartan/Downloads/ojdbc11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
