@@ -34,9 +34,9 @@ public class client {
 		
 		//Remove record from table
 		//Delete Operation.
-		student = service.findstudentbyId(100);
-		service.removestudent(student);
-		System.out.println("End of the life cycle.");
+//		student = service.findstudentbyId(100);
+//		service.removestudent(student);
+//		System.out.println("End of the life cycle.");
 		
 		
 	}
