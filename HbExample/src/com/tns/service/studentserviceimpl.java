@@ -1,6 +1,5 @@
 package com.tns.service;
 
-import com.tns.dao.studentDao;
 import com.tns.dao.studentdauimplementation;
 import com.tns.entities.student;
 
