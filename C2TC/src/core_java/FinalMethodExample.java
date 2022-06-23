@@ -1,6 +1,6 @@
 package core_java;
 
-class demo
+class Xyz
 {
 
 	void add()
@@ -16,7 +16,7 @@ class demo
 	//this will give error.
 }
 
-class abc extends demo
+class Efg extends Xyz
 {
 	void add()
 	{
@@ -35,7 +35,7 @@ public class FinalMethodExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		abc d = new abc();
+		Efg d = new Efg();
 		d.add();
 		d.min();
 

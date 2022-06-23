@@ -1,6 +1,6 @@
 package core_java;
 
-final class demo
+final class Abc
 {
 
 	void add()
@@ -21,7 +21,7 @@ public class FinalClassExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Demo d = new Demo();
+		Abc d = new Abc();
 //		d.add();
 //		d.min();
 	}
