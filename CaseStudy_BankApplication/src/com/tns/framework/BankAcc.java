@@ -13,14 +13,34 @@ public abstract class BankAcc {
 		this.accBal = accBal;
 	}
 	
-	public void withdraw(float accBal)
+	abstract public void withdraw(float accBal);
+	public void deposite (float accBal)
 	{
 		System.out.println(accBal);
 	}
-	
-	public void deposite(float accBal)
+	public String getaccNm()
 	{
-		System.out.println(accBal);
+		return accNm;
+	}
+	public void setaccNm()
+	{
+		this.accNm=accNm;
+	}
+	public int getaccNo()
+	{
+		return accNo;
+	}
+	public void setaccNo()
+	{
+		this.accNo=accNo;
+	}
+	public float getaccBal()
+	{
+		return accBal;
+	}
+	public void setaccBal()
+	{
+		this.accBal=accBal;
 	}
 	
 	@Override

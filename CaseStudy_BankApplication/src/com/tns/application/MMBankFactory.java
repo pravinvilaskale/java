@@ -1,15 +1,19 @@
 package com.tns.application;
 
 import com.tns.framework.BankFactory;
-import com.tns.framework.SavingAcc;
 
 
 
 public class MMBankFactory extends BankFactory{
 	
-	public MMSaving getNewSavingAcc(int accNo,String accNm,float accBal,boolean isSalaried)
+	public MMCurrentAcc getNewCurrentAcc(int accNo,String accNm,float accBal,float creditLimit)
 	{
-		SavingAcc s = new SavingAcc();
+		MMCurrentAcc c= new MMCurrentAcc(accNo,accNm,accBal,creditLimit);
+		return c;
+	}
+	public MMSavingAcc getNewSavingAcc(int accNo,String accNm,float accBal,boolean isSalaried)
+	{
+		MMSavingAcc s = new MMSavingAcc(accNo,accNm,accBal,isSalaried);
 		return s;
 	}
 }

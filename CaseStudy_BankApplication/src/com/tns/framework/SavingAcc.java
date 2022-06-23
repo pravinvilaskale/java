@@ -3,7 +3,7 @@ package com.tns.framework;
 public abstract class SavingAcc extends BankAcc {
 	
 	private boolean isSalaried;
-	private float MINBAL;
+	static final private float MINBAL=0.0f;
 	
 	public SavingAcc(int accNo,String accNm,float accBal,boolean isSalaried) 
 	{
@@ -14,13 +14,13 @@ public abstract class SavingAcc extends BankAcc {
 	@Override
 	public void withdraw(float accBal)
 	{
-		System.out.println(accBal);
+		System.out.println("Account no is"+this.getaccNo());
 	}
 	
 	@Override
 	public String toString() 
 	{
-		return String.format("SavingAcc [isSalaried=%s]",isSalaried);
+		return String.format("SavingAcc [isSalaried=%s,toString=%s]",isSalaried,super.toString());
 	}
 	
 }

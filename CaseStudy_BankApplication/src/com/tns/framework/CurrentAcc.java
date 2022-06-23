@@ -13,13 +13,13 @@ public abstract class CurrentAcc extends BankAcc {
 	@Override
 	public void withdraw(float accBal)
 	{
-		System.out.println(accBal);
+		System.out.println("Account no is"+this.getaccNo());
 	}
 	
 	@Override
 	public String toString() 
 	{
-		return String.format("CurrentAcc [creditLimit=%s]",creditLimit);
+		return String.format("CurrentAcc [creditLimit=%s,toString=%s]",creditLimit,super.toString());
 	}
 	
 }

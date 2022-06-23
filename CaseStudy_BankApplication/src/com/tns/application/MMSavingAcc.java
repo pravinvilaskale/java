@@ -3,7 +3,7 @@ import com.tns.framework.SavingAcc;
 
 public class MMSavingAcc extends SavingAcc {
 	
-	final static private float MINBAL=1000;
+	final static private float MINBAL=0.0f;
 	
 	public MMSavingAcc(int accNo,String accNm,float accBal,boolean isSalaried)
 	{
@@ -19,7 +19,7 @@ public class MMSavingAcc extends SavingAcc {
 	@Override
 	public String toString() 
 	{
-		return String.format("MMSavingAcc [MINBAL=%s]",MINBAL);
+		return String.format("MMSavingAcc [MINBAL=%s]",super.toString());
 	}
 
 }
